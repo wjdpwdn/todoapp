@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 50px;
+  width: 500px;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.deleteButton {
+  display: flex;
+  margin-top: 10px;
+}
+.deleteButton Button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.deleteButton Button {
+  flex: 1;
+}
+
+.container h1 {
+  margin: 30px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+ul h1 {
+  margin: 100px;
+}
