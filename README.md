@@ -11,3 +11,15 @@
 ## Contributors
 
 - FE / BE : 정제우
+
+## 특이사항
+
+- server를 실행시킬경우 아래의 글자를 터미널에 위애서 아래로 순서대로 입력해쥇요
+
+```
+// 파일 이동
+cd server
+cd fake-server
+// localhost:3001 에서 실행
+json-server --watch data.json --port 3001
+```
